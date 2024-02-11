@@ -1,0 +1,11 @@
+.titulo{
+    background-color: red;
+    background-position: center;
+    background-size: auto;
+}
+.seccion{
+    background-color: blue;
+}
+.titulosSeccion{
+    background-color: chartreuse;
+}

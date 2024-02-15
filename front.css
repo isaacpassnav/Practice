@@ -9,3 +9,14 @@
 .titulosSeccion{
     background-color: chartreuse;
 }
+body{
+    background-color: chocolate;
+}
+.title{
+    font-size: 2em;
+}
+.logo{
+    width: 300px;
+    position: auto;
+
+}

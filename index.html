@@ -3,129 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piura</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
-
 <body>
-    <header> <h1>Ciudad de Piura</h1>  </header>
+    <header class="container">
+        <h1 class="title">Proyecto M1</h1>
+    </header>
     <main>
-        <div>
-            <h1>!Bienvevidos a la ciudad del eterno calor¡</h1>
-        </div>
-        <div>
-            <h2>Información general</h2>
-            <p>Piura es la capital de la región de Piura, en el noroeste de Perú. Es conocida por sus edificios coloniales, como la Catedral de Piura, con su altar dorado ornamental. La catedral está frente a la Plaza de Armas, una plaza pequeña con árboles de tamarindo. La Casa Museo Almirante Miguel Grau conserva fotos y recuerdos del héroe de guerra del siglo XIX. La Iglesia de San Francisco es donde Piura declaró su independencia de España en 1821</p>
-        </div>
-        <article>
-            <div>
-                <h3>Etiquetas para dar estilo y formatos de texto.</h3>
-                <ol>A continuacion veremos algunas:</ol>
-                    <li>Etiqueta "b" </li>
-                        <span>
-                            Sin importancia semantica, solo da estilo negrita al atexto.
-                        </span>
-                    <li>Etiqueta "strong"</li>
-                        <span>
-                            Tiene importancia semantica ya que nos permite subrayar texto importante.
-                        </span>
-                    <li>Etiqueta "i"</li>
-                        <span>
-                            Sin importancia semantica, solo permite cambiar el formato a Italic.
-                        </span>
-                    <li>Etiqueta "em"</li>
-                        <span>
-                            Es Italic con importancia semantica, permite hacer énfasis en una parte del texto. 
-                        </span>
-                    <li>Etiqueta "small"</li>
-                        <span>
-                            Sin importancia semantica, permite agregar texto pequeño.
-                        </span>    
-                    <li>Etiqueta "mark"</li>
-                        <span>
-                            Sin importancia semantica, permite marcar o resaltara texto
-                        </span>
-                    <li>Etiqueta "del"</li>
-                        <span>
-                            Indicar que hemos borrado un texto.
-                        </span>    
-                    <li>Etiqueta "ins"</li>
-                        <span>
-                            Indica que hemos insertado un texto.
-                        </span>    
-                    <li>Etiqueta "sub"</li>
-                        <span>
-                            Texto pequeño inferior.
-                        </span>
-                    <li>Etiqueta "sup"</li>
-                        <span>
-                            Texto pequeño superior.
-                        </span>
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Etiquetas para citar textos</h3>
-                    <ol>A continuacion veremos algunas:</ol>
-                    <li>Etiqueta "blockquote"</li>
-                        <span>
-                            Se utiliza para denotar que el texto contenido en ella es una cita o sección de texto tomada de otro origen o fuente
-                        </span>
-                        <p> Ejemplo: 
-                            <blockquote>
-                                <p>"La imaginación es más importante que el conocimiento. El conocimiento es limitado, mientras que la imaginación abarca el mundo entero."</p>
-                                <footer>Albert Einstein</footer>
-                            </blockquote>
-                            <span>
-                                En este caso, "blockquote" se utiliza para envolver una cita de Albert Einstein, con el contenido de la cita y el nombre del autor dentro de la etiqueta "footer".
-                            </span>                              
-                        </p>    
-                    <li>Etiqueta "cite"</li>
-                        <span>
-                            Se usa para marcar el título de una obra, como libros, canciones, artículos, etc.
-                        </span>
-                        <p> Ejemplo:
-                            <p>El libro <cite>Cien años de soledad</cite> es una obra maestra de Gabriel García Márquez.
-                            </p>
-                            <span>
-                                En este caso, "cite" se usa para marcar el título del libro "Cien años de soledad" como una obra citada en el texto.
-                            </span> 
-                        </p>
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Etiquetas para imagenes</h3>
+        <section class="SobreMi">
+            <div class="container1">
+                <h3 class="title">Sobre mi</h3>
                 <span>
-                    La etiqueta que utilizaremos para insertar imágenes en nuestro sitio web se llama <img>. Es una etiqueta abierta, es decir que no necesita una etiqueta de cierre, y nos permite renderizar imágenes de distintos formatos en nuestra página.
+                    Mi nombre es Isaac, originario de Piura, Perú, aunque actualmente resido en Lima desde hace casi cuatro años. Soy un apasionado de los deportes y disfruto explorando la diversidad culinaria. Recientemente, he incursionado en el mundo de la programación y estoy absorbiendo conocimientos constantemente. Agradezco a Henry por brindarme la oportunidad de avanzar en mis estudios, donde estoy aprendiendo lenguajes fundamentales como HTML, CSS y JavaScript. Estoy convencido de que esta es la mejor opción para mi desarrollo profesional y personal.
                 </span>
-                <h4>Recibe 3 atributos super importantes</h4>
-                    <ol>A continuacion los veremos:</ol>
-                    <li>Atributo "src"</li>
-                        <span>
-                            Indica la ruta donde está ubicada la imagen que queremos mostrar.
-                        </span>
-                    <li>Atributo "alt"</li>
-                        <span>
-                            Especifica un texto alternativo a la imagen, generalmente por accesibilidad y cuando no cargan las imágenes este es el texto que se mostrará en su lugar.
-                        </span>
-                    <li>Atributo "title"</li>
-                        <span>
-                            Permite definir un título para la imagen que se mostrará cuando el curso se ubique por encima de ella.
-                        </span>
-                        <span>
-                            Ejemplo:
-                            <p> <b> "img src </b> ="nombre de la imagen a subir(imagen.jpg)"</p> 
-                            <p> <b> "alt </b> ="Descripción de la imagen""</p> 
-                            <p> <b> "title </b>  =" cuando el usuario coloca el cursor sobre la imagen, se mostrará un mensaje emergente con el texto "Haz clic para ampliar"</p> 
-                            
-                        </span>                 
-
-            </div>        
-
-        </article>
-
-
+            </div class="isaac-container">
+            <div class="isaac">
+                <img src="./img/isaac.jpeg" class="isaac" alt="isaac imagen">
+            </div>
+        </section>
+        <section>
+            <div class="container2">
+                <div class="techFav">
+                    <h3>Mis tecnologías favoritas</h3>
+                </div>
+                <div class="cards">
+                    <h4>HTML</h4>
+                    <img src="./img/html.png" class="logo" alt="HTML Logo" />
+                </div>
+                <div class="cards">
+                    <h4>CSS</h4>
+                    <img src="./img/css.png" class="logo" alt="CSS Logo" />
+                </div>
+                <div class="cards">
+                    <h4>JAVASCRIPT</h4>
+                    <img src="./img/Javascript.png" class="logo" alt="JavaScript Logo" />
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="title5">
+                    <h5>Mis actividades favoritas</h5>
+                </div>
+                <form class="formulario">
+                    <div>
+                        <input id="nombre" type="text" name="nombre" placeholder="Nombre de la actividad">
+                    </div>
+                    <div>
+                        <textarea id="descripcion" name="descripcion" placeholder="Descripción de la actividad"></textarea>
+                    </div>
+                    <div>
+                        <input id="link" type="url" name="imagen" placeholder="Link de imagen">
+                    </div>
+                    <div class="button-container">
+                        <button id="button">Agregar actividad</button>
+                        <button id="clearButton">Borrar Actividades</button>
+                    </div>
+                    
+                </form>
+                <div class="containerCard" id="divContainerCards">Sin actividades por el momento</div>
+            </div>
+        </section>
     </main>
-     
+    <hr>   
+    <footer><p>&copy;2024 - Mi presentación</p></footer>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
